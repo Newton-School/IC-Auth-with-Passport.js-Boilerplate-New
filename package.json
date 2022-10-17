@@ -29,7 +29,7 @@
 
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon src/index.js",
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
    
   },

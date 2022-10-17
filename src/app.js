@@ -83,9 +83,6 @@ printData = (req, res, next) => {
 
 app.use(printData) //user printData function as middleware to print populated variables
 
-if(!module.parent)
-app.listen(4001, () => console.log(`Server started on port 4001...`))
-
 app.get("/login", (req, res) => {
     res.render("login.ejs")
 
